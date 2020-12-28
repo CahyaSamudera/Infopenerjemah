@@ -1,0 +1,42 @@
+.container-2 {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cda45e solid 1px;
+  margin-bottom: 5px;
+  background: #fafafa;
+}
+
+ul#services li p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+}
+
+td,
+th {
+  border: 1px solid #cda45e;
+  text-align: center;
+  padding: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .container-2 {
+    width: 100%;
+  }
+  ul#services li {
+    font-size: 12px;
+  }
+  ul#services li h3 {
+    font-size: 16px;
+  }
+}

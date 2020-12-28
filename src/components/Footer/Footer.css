@@ -1,0 +1,22 @@
+.footer {
+  background: #000;
+  padding: 30px 0;
+  color: #fff;
+}
+.footer .copyright {
+  text-align: center;
+}
+.footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer,
+  .footer p,
+  .footer a {
+    font-size: 10px;
+  }
+}
