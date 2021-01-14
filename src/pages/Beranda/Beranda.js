@@ -124,7 +124,7 @@ const Beranda = () => {
                 <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
                   <div className='experience'>
                     <span>
-                      <CountUp end={6069} duration={5} redraw={true}>
+                      <CountUp end={1523} duration={5} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -138,7 +138,7 @@ const Beranda = () => {
                 <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
                   <div className='experience'>
                     <span>
-                      <CountUp end={14069} duration={5} redraw={true}>
+                      <CountUp end={3219} duration={5} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -165,7 +165,7 @@ const Beranda = () => {
                 </div>
                 <div className='img-box' data-aos='fade-up'>
                   <span>
-                    <CountUp end={10} duration={7} redraw={true}>
+                    <CountUp end={10} duration={5} redraw={true}>
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />
