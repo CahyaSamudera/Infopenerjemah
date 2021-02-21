@@ -42,20 +42,16 @@ const Legalisasi = () => {
                 <p data-aos='fade-up'>4. Poto Kopi Dokumen</p>
                 <p data-aos='fade-up'>5. Materai 6000 per lembar</p>
                 <p data-aos='fade-up'>
-                  Adapun Standar Biaya Jasa Legalisasi / Legallisir:
+                  Adapun Standar Biaya Jasa Legalisasi / Legalisir:
                 </p>
                 <table data-aos='fade-up'>
                   <tr>
                     <th>Paket Express</th>
-                    <th>Paket Reguler</th>
+                    <th>Lama Proses</th>
                   </tr>
                   <tr>
-                    <td>Rp 350.000,-</td>
-                    <td>Rp 250.000,-</td>
-                  </tr>
-                  <tr>
+                    <td>Rp 500.000,-</td>
                     <td>3 hari kerja</td>
-                    <td>6 hari kerja</td>
                   </tr>
                 </table>
                 <p style={{ paddingTop: '20px' }} data-aos='fade-up'>
@@ -67,7 +63,7 @@ const Legalisasi = () => {
                     <th>Lama Proses</th>
                   </tr>
                   <tr>
-                    <td>Rp 100.000,-</td>
+                    <td>Rp 250.000,-</td>
                     <td>2 hari kerja</td>
                   </tr>
                 </table>

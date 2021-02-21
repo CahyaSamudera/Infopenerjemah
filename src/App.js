@@ -15,7 +15,7 @@ function App() {
         <Route path='/lisan' component={Lisan} exact />
         <Route path='/dokumen' component={Dokumen} exact />
         <Route path='/legalisasi' component={Legalisasi} exact />
-        <Route path='/kontak' component={Kontak} exact />
+        <Route path='/contact' component={Kontak} exact />
       </Switch>
     </Router>
   );

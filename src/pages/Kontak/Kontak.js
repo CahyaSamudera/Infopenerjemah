@@ -65,13 +65,14 @@ const Kontak = () => {
                 </div>
                 <div className='phone' data-aos='fade-up'>
                   <i className='fas fa-phone'> </i>
-                  <h4>Telepon:</h4>
-                  <p>021-3029-7755</p>
+                  <h4>Telepon / WA:</h4>
+                  <p>+62 877-3076-4439</p>
                 </div>
               </div>
             </div>
             <div className='col-lg-8 mt-5 mt-lg-0' data-aos='fade-up'>
-              <form action='#'>
+              <form action='/contact' name='contact' method='post'>
+                <input type='hidden' name='form-name' value='contact' />
                 <div className='form-row'>
                   <div className='col-md-6 form-group'>
                     <input
@@ -80,6 +81,7 @@ const Kontak = () => {
                       className='form-control'
                       id='name'
                       placeholder='Nama'
+                      required
                     />
                   </div>
                   <div className='col-md-6 form-group'>
@@ -89,10 +91,11 @@ const Kontak = () => {
                       className='form-control'
                       id='email'
                       placeholder='Email'
+                      required
                     />
                   </div>
                 </div>
-                <div className='form-group'>
+                {/* <div className='form-group'>
                   <input
                     type='text'
                     className='form-control'
@@ -100,14 +103,16 @@ const Kontak = () => {
                     id='subject'
                     placeholder='Subjek'
                   />
-                </div>
+                </div> */}
                 <div className='form-group'>
                   <textarea
                     className='form-control'
+                    type='text'
                     name='message'
                     id='message'
                     rows='8'
                     placeholder='Pesan'
+                    required
                   ></textarea>
                 </div>
                 <div className='text-center'>
